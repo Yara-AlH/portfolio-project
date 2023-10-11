@@ -12,6 +12,14 @@ h1 {
   font-size: 90px;
 }
 
+h5 {
+  font-weight: bold;
+}
+
 .hero {
   padding: 120px 20px;
+}
+
+.about-section {
+  padding: 55px 20px;
 }
