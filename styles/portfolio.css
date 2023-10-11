@@ -1,0 +1,17 @@
+:root {
+  --heading-font-family: "Playfair Display", serif;
+  --main-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: 90px;
+}
+
+.hero {
+  padding: 120px 20px;
+}
