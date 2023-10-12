@@ -12,12 +12,11 @@ h1 {
   font-size: 90px;
 }
 
-h4 {
-  font-weight: bolder;
-}
-
+h3,
+h4,
 h5 {
-  font-weight: bold;
+  font-family: var(--heading-font-family);
+  font-weight: bolder;
 }
 
 .hero {
@@ -35,4 +34,14 @@ h5 {
 .project:hover {
   cursor: pointer;
   transform: translate(0px, 0px) scale(1.1, 1.1);
+}
+
+.email {
+  font-family: var(--heading-font-family);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.email:hover {
+  text-decoration: underline;
 }
