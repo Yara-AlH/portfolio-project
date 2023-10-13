@@ -1,6 +1,7 @@
 :root {
   --heading-font-family: "Playfair Display", serif;
   --main-font-family: "Poppins", sans-serif;
+  --color: #198754;
 }
 
 body {
@@ -33,7 +34,7 @@ h5 {
 
 .project:hover {
   cursor: pointer;
-  transform: translate(0px, 0px) scale(1.1, 1.1);
+  transform: translate(0px, 0px) scale(1.05, 1.05);
 }
 
 .email {
@@ -44,4 +45,20 @@ h5 {
 
 .email:hover {
   text-decoration: underline;
+}
+
+.socials a {
+  text-decoration: none;
+  font-size: 22px;
+  margin: 0px 30px;
+  padding: 9px 14px;
+  color: #2b3035;
+  background-color: #f9f7fe;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+.socials :hover {
+  color: #f9f7fe;
+  background-color: #2b3035;
 }
