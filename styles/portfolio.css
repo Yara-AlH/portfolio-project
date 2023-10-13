@@ -13,6 +13,7 @@ h1 {
   font-size: 90px;
 }
 
+h2,
 h3,
 h4,
 h5 {
@@ -61,4 +62,49 @@ h5 {
 .socials :hover {
   color: #f9f7fe;
   background-color: #2b3035;
+}
+
+@media (max-width: 768px) {
+  .my-projects {
+    display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .my-projects,
+  .contact-form {
+    display: block;
+    size: 400px;
+  }
+
+  .submit {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 393px) {
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .about-section {
+    padding: 0px 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .my-projects {
+    width: 300px;
+  }
+
+  .socials {
+    margin-top: 50px !important;
+  }
 }
