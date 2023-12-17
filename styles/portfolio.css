@@ -64,6 +64,17 @@ h5 {
   background-color: #2b3035;
 }
 
+.resume-link {
+  color: #198754;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+}
+
+.resume-link:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .my-projects {
     display: block;
